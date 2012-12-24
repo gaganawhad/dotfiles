@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/gagan/projects/scripturable/lib/generators/migrations'
+let g:netrw_dirhist_2='/Users/gagan/projects/desiringgod/app/controllers'
+let g:netrw_dirhist_3='/Users/gagan/projects/desiringgod/app/views/donation_form_partials'
+let g:netrw_dirhist_4='/Users/gagan/projects/scripturable/spec'
+let g:netrw_dirhist_5='/Users/gagan/projects/desiringgod/app/controllers'
