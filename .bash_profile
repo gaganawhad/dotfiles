@@ -73,6 +73,7 @@ alias gadeleted='git rm $(git ls-files --deleted)'
 
 alias production_console='ssh www.desiringgod.org && dgn && rails c' 
 #export PS1="\u@\h:\w: "
+export PATH=/usr/local/bin:$PATH
 export PATH=$PATH:/usr/local/mysql/bin 
 "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
