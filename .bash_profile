@@ -79,4 +79,7 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
-dgn
+if [ -f ~/dotfiles/.localrc ]; then
+   source ~/dotfiles/.localrc
+fi
+

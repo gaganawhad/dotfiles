@@ -4,3 +4,4 @@
 *.swm
 .vim/.netrwhist
 .vim/.VimballRecord
+.localrc
