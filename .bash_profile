@@ -65,7 +65,7 @@ alias updatedb='sudo /usr/libexec/locate.updatedb'
 alias cuke='bundle exec cucumber' 
 alias cukewip='bundle exec cucumber --profile wip' 
 alias migratedb='bundle exec rake db:migrate' 
-alias removeunwanted='find . -name "*.swp" -print0 | xargs -0 rm -rf; find . -name "*.swp" -print0 | xargs -0 rm -rf; find . -name "*.swp" -print0 | xargs -0 rm -rf'
+alias removeunwanted='find . -name "*.swp" -print0 | xargs -0 rm -rf; find . -name "*.swn" -print0 | xargs -0 rm -rf; find . -name "*.swo" -print0 | xargs -0 rm -rf'
 alias grep='grep --color=auto' #sets color on by default on the grep action
 alias gadeleted='git rm $(git ls-files --deleted)'
 
@@ -73,6 +73,7 @@ alias gadeleted='git rm $(git ls-files --deleted)'
 
 alias production_console='ssh www.desiringgod.org && dgn && rails c' 
 #export PS1="\u@\h:\w: "
+export PATH=/usr/local/bin:$PATH
 export PATH=$PATH:/usr/local/mysql/bin 
 +### Added by the Heroku Toolbelt
 +export PATH="/usr/local/heroku/bin:$PATH"
