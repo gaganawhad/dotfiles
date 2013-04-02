@@ -74,6 +74,9 @@ alias gadeleted='git rm $(git ls-files --deleted)'
 alias production_console='ssh www.desiringgod.org && dgn && rails c' 
 #export PS1="\u@\h:\w: "
 export PATH=$PATH:/usr/local/mysql/bin 
++### Added by the Heroku Toolbelt
++export PATH="/usr/local/heroku/bin:$PATH"
+
 "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
 dgn
