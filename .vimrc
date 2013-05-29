@@ -902,7 +902,7 @@ command! -nargs=? -complete=command Fold call Foldsearch(<q-args>)
 "command! R Fs \(^\s*\(\(def\|class\|module\)\s\)\)\|^\s*[#%"0-9]\{0,4\}\s*{\({{\|!!\)
 command! R Fs
 "run NERDTree
-autocmd VimEnter * exe 'NERDTree ~/projects/desiringgod/' | wincmd l
+autocmd VimEnter * NERDTree | wincmd l
 "following are mappings I got from destroy all software
 " Open files with <leader>f
 map <leader>g :CommandTFlush<cr>\|:CommandT<cr>
