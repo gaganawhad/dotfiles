@@ -67,6 +67,7 @@ alias migratedb='bundle exec rake db:migrate'
 alias removeunwanted='find . -name "*.swp" -print0 | xargs -0 rm -rf; find . -name "*.swn" -print0 | xargs -0 rm -rf; find . -name "*.swo" -print0 | xargs -0 rm -rf'
 alias grep='grep --color=auto' #sets color on by default on the grep action
 alias gadeleted='git rm $(git ls-files --deleted)'
+alias r='rails'
 
 
 
