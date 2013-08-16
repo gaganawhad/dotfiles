@@ -64,7 +64,7 @@ alias updatedb='sudo /usr/libexec/locate.updatedb'
 alias cuke='bundle exec cucumber' 
 alias cukewip='bundle exec cucumber --profile wip' 
 alias migratedb='bundle exec rake db:migrate' 
-alias removeunwanted='find . -name "*.swp" -print0 | xargs -0 rm -rf; find . -name "*.swn" -print0 | xargs -0 rm -rf; find . -name "*.swo" -print0 | xargs -0 rm -rf'
+alias removeunwanted='find . -name "*.swp" -print0 | xargs -0 rm -rf; find . -name "*.swn" -print0 | xargs -0 rm -rf; find . -name "*.swo" -print0 | xargs -0 rm -rf; find . -name "*.swm" -print0 | xargs -0 rm -rf; find . -name "*.swk" -print0 | xargs -0 rm -rf; find . -name "*.swl" -print0 | xargs -0 rm -rf'
 alias grep='grep --color=auto' #sets color on by default on the grep action
 alias gadeleted='git rm $(git ls-files --deleted)'
 alias r='rails'
