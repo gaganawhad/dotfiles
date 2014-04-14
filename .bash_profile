@@ -75,8 +75,6 @@ alias production_console='ssh www.desiringgod.org && dgn && rails c'
 #export PS1="\u@\h:\w: "
 export PATH=/usr/local/bin:$PATH
 export PATH=$PATH:/usr/local/mysql/bin 
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
 
 ### Recommended by homebrew
 homebrew=/usr/local/bin:/usr/local/sbin
