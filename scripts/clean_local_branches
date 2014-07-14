@@ -1,0 +1,9 @@
+git branch --merged develop | grep -v 'develop$' | xargs git branch -d
+for branch in $(git for-each-ref refs/heads/ --format='%(refname:short)'); do
+  [ $branch == "develop" ]  || [ $branch == "master" ] && continue
+  read -p "Delete branch $branch (y/n)?" 
+  if [ $REPLY == "y" ] 
+  then 
+    git branch -D $branch 
+  fi
+done
