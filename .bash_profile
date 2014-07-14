@@ -79,6 +79,7 @@ export PATH=$PATH:/usr/local/mysql/bin
 ### Recommended by homebrew
 homebrew=/usr/local/bin:/usr/local/sbin
 export PATH=$homebrew:$PATH
+export PATH=$PATH:~/dotfiles/scripts
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
