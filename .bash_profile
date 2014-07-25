@@ -80,6 +80,7 @@ export PATH=$PATH:/usr/local/mysql/bin
 homebrew=/usr/local/bin:/usr/local/sbin
 export PATH=$homebrew:$PATH
 export PATH=$PATH:~/dotfiles/scripts
+source ~/dotfiles/scripts/git-completion.sh
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
