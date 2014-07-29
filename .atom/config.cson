@@ -12,3 +12,5 @@
   'showOnStartup': false
 'metrics':
   'userId': '6bb724dbd5d98eda69e4c31342ad9e8232405043'
+'whitespace':
+  'removeTrailingWhitespace': false
