@@ -1,6 +1,7 @@
 'editor':
   'fontSize': 11
   'fontFamily': 'Courier New'
+  'showIndentGuide': true
 'core':
   'themes': [
     'atom-dark-ui'
