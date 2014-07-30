@@ -15,3 +15,9 @@ After that make symlinks to all the dotfiles example:
 ln -s ~/dotfiles/.bash_profile ~/.bash_profile
 ```
 
+For iterm2 settings in com.googlecode.iterm2.plist use: 
+
+```bash
+ln -s  ~/dotfiles/com.googlecode.iterm2.plist ~/Library/Preferences
+```
+
