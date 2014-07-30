@@ -205,9 +205,9 @@
 	<key>NSWindow Frame Preferences</key>
 	<string>-1985 116 924 485 -2560 -540 2560 1440 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>-4973 -85 1306 808 -5120 -540 2560 1440 </string>
+	<string>-4411 -65 585 451 -5120 -540 2560 1440 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>-4851 -88 1677 689 -5120 -540 2560 1440 </string>
+	<string>-4851 150 585 451 -5120 -540 2560 1440 </string>
 	<key>NSWindow Frame iTerm Window 10</key>
 	<string>435 148 585 451 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 11</key>
@@ -215,9 +215,9 @@
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>-2317 353 585 451 -2560 -540 2560 1440 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
-	<string>0 87 1439 791 0 0 1440 878 </string>
+	<string>-1375 164 585 451 -2560 -540 2560 1440 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
-	<string>-1805 241 1215 519 -2560 -540 2560 1440 </string>
+	<string>-1805 309 585 451 -2560 -540 2560 1440 </string>
 	<key>NSWindow Frame iTerm Window 5</key>
 	<string>0 427 585 451 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 6</key>
@@ -1132,9 +1132,9 @@
 			<key>Background Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.61340498924255371</real>
+				<real>0.3031674325466156</real>
 				<key>Green Component</key>
-				<real>0.58450210094451904</real>
+				<real>0.2888825535774231</real>
 				<key>Red Component</key>
 				<real>0.0</real>
 			</dict>
@@ -4645,6 +4645,8 @@
 			<string>/Users/gagan/projects/desiring-god-new</string>
 		</dict>
 	</array>
+	<key>NoSyncNeverRemindPrefsChangesCopy</key>
+	<true/>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
