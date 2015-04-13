@@ -1,17 +1,14 @@
-'editor':
-  'fontSize': 11
-  'fontFamily': 'Courier New'
-  'invisibles': {}
-  'showIndentGuide': true
-'core':
-  'themes': [
-    'atom-dark-ui'
-    'atom-dark-syntax'
-  ]
-'exception-reporting':
-  'userId': 'cec02fe2-1275-01c6-1e41-8ff9a7e1e71c'
-'welcome':
-  'showOnStartup': false
-'metrics':
-  'userId': '6bb724dbd5d98eda69e4c31342ad9e8232405043'
-'whitespace': {}
+"*":
+  editor:
+    fontFamily: "Courier New"
+    fontSize: 11
+    showIndentGuide: true
+  core: {}
+  "exception-reporting":
+    userId: "cec02fe2-1275-01c6-1e41-8ff9a7e1e71c"
+  welcome:
+    showOnStartup: false
+  metrics:
+    userId: "6bb724dbd5d98eda69e4c31342ad9e8232405043"
+  "tree-view":
+    hideVcsIgnoredFiles: true
