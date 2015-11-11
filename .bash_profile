@@ -91,3 +91,6 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 if [ -f ~/dotfiles/.localrc ]; then
    source ~/dotfiles/.localrc
 fi
+
+# SET BUNDLER_EDITOR to atom
+export BUNDLER_EDITOR=atom
