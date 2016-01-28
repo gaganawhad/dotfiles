@@ -1,14 +1,15 @@
 "*":
+  core: {}
   editor:
     fontFamily: "Courier New"
     fontSize: 11
+    invisibles: {}
     showIndentGuide: true
-  core: {}
   "exception-reporting":
     userId: "cec02fe2-1275-01c6-1e41-8ff9a7e1e71c"
-  welcome:
-    showOnStartup: false
   metrics:
     userId: "6bb724dbd5d98eda69e4c31342ad9e8232405043"
   "tree-view":
     hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
