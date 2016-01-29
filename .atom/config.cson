@@ -4,6 +4,7 @@
     fontFamily: "Courier New"
     fontSize: 11
     invisibles: {}
+    preferredLineLength: 118
     showIndentGuide: true
   "exception-reporting":
     userId: "cec02fe2-1275-01c6-1e41-8ff9a7e1e71c"
