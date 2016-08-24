@@ -1,3 +1,7 @@
+# This script deletes the local branches that are already merged into the git branch you are currently on, and
+# loops through the rest asking you if you want to delete each one.
+# It always excludes develop and master
+
 git branch --merged $(git rev-parse --abbrev-ref HEAD) | grep -v 'develop$' | grep -v 'master$' | xargs git branch -d
 for branch in $(git for-each-ref refs/heads/ --format='%(refname:short)'); do
   [ $branch == "develop" ]  || [ $branch == "master" ] && continue
