@@ -1,3 +1,6 @@
+[[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load the default .profile
+
+
 # set a fancy prompt (non-color, unless we know we "want" color)
 case "$TERM" in
   xterm-color) color_prompt=yes;;
