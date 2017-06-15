@@ -61,10 +61,7 @@ alias grslc='git reset --soft HEAD^'
 alias gcis='git commit --allow-empty -m "[ci skip]"'
 alias grep='grep --color=auto' #sets color on by default on the grep action
 
-
 #export PS1="\u@\h:\w: "
-export PATH=/usr/local/bin:$PATH
-export PATH=$PATH:/usr/local/mysql/bin
 
 ### Recommended by homebrew
 homebrew=/usr/local/bin:/usr/local/sbin
