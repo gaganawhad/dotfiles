@@ -53,8 +53,6 @@ if [ -f ~/dotfiles/scripts/git-completion.bash ]; then
   source ~/dotfiles/scripts/git-completion.bash
 fi
 
-#export PS1="\u@\h:\w: "
-
 ### Recommended by homebrew
 homebrew=/usr/local/bin:/usr/local/sbin
 export PATH=$homebrew:$PATH
