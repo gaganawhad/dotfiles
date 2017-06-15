@@ -45,9 +45,13 @@ if [ -f ~/dotfiles/aliases.bash ]; then
    source ~/dotfiles/aliases.bash
 fi
 
-### Git completion and other scripts
+### Add scripts to path
 export PATH=$PATH:~/dotfiles/scripts
-source ~/dotfiles/scripts/git-completion.sh
+
+### Add git-completion script
+if [ -f ~/dotfiles/scripts/git-completion.bash ]; then
+  source ~/dotfiles/scripts/git-completion.bash
+fi
 
 #export PS1="\u@\h:\w: "
 
