@@ -49,8 +49,6 @@ alias gpushd='git push origin develop'
 alias gpulld='git pull origin develop'
 alias gpushm='git push origin master'
 alias gpullm='git pull origin master'
-alias gpullr='git pull origin feature/refactor-mpx-exporter-code'
-alias gpushr='git push origin feature/refactor-mpx-exporter-code'
 alias gl='git --no-pager log --format="%h%x09%ar%x09%ae%x09%s%x09" -n 10'
 alias gs='git status'
 alias gd='git diff'
@@ -59,23 +57,11 @@ alias gcm='git commit -m'
 alias gma='git commit -am'
 alias gb='git branch'
 alias gc='git checkout'
-alias gra='git remote add'
-alias grr='git remote rm'
-alias gcl='git clone'
 alias grslc='git reset --soft HEAD^'
 alias gcis='git commit --allow-empty -m "[ci skip]"'
-alias updatedb='sudo /usr/libexec/locate.updatedb'
-alias cuke='bundle exec cucumber'
-alias cukewip='bundle exec cucumber --profile wip'
-alias migratedb='bundle exec rake db:migrate'
-alias removeunwanted='find . -name "*.swp" -print0 | xargs -0 rm -rf; find . -name "*.swn" -print0 | xargs -0 rm -rf; find . -name "*.swo" -print0 | xargs -0 rm -rf; find . -name "*.swm" -print0 | xargs -0 rm -rf; find . -name "*.swk" -print0 | xargs -0 rm -rf; find . -name "*.swl" -print0 | xargs -0 rm -rf'
 alias grep='grep --color=auto' #sets color on by default on the grep action
-alias gadeleted='git rm $(git ls-files --deleted)'
-alias r='rails'
 
 
-
-alias production_console='ssh www.desiringgod.org && dgn && rails c'
 #export PS1="\u@\h:\w: "
 export PATH=/usr/local/bin:$PATH
 export PATH=$PATH:/usr/local/mysql/bin
