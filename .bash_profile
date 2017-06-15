@@ -96,5 +96,5 @@ if [ -f ~/dotfiles/.localrc ]; then
    source ~/dotfiles/.localrc
 fi
 
-# SET BUNDLER_EDITOR to atom
-export BUNDLER_EDITOR=atom
+# SET EDITOR to vim
+export EDITOR=vim
