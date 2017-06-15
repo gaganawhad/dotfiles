@@ -53,6 +53,14 @@ if [ -f ~/dotfiles/scripts/git-completion.bash ]; then
   source ~/dotfiles/scripts/git-completion.bash
 fi
 
+# SET EDITOR to vim
+export EDITOR=vim
+
+### If ~/dotifles/.localrc file exists then the settings in that file will override all the settings in this file
+if [ -f ~/dotfiles/.localrc ]; then
+   source ~/dotfiles/.localrc
+fi
+
 ### Recommended by homebrew
 homebrew=/usr/local/bin:/usr/local/sbin
 export PATH=$homebrew:$PATH
@@ -61,11 +69,3 @@ export PATH=$homebrew:$PATH
 export PATH="$PATH:$HOME/.rvm/bin"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-
-### If ~/dotifles/.localrc file exists then the settings in that file will override all the settings in this file
-if [ -f ~/dotfiles/.localrc ]; then
-   source ~/dotfiles/.localrc
-fi
-
-# SET EDITOR to vim
-export EDITOR=vim
