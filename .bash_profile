@@ -61,13 +61,15 @@ alias grslc='git reset --soft HEAD^'
 alias gcis='git commit --allow-empty -m "[ci skip]"'
 alias grep='grep --color=auto' #sets color on by default on the grep action
 
+### Git completion
+export PATH=$PATH:~/dotfiles/scripts
+source ~/dotfiles/scripts/git-completion.sh
+
 #export PS1="\u@\h:\w: "
 
 ### Recommended by homebrew
 homebrew=/usr/local/bin:/usr/local/sbin
 export PATH=$homebrew:$PATH
-export PATH=$PATH:~/dotfiles/scripts
-source ~/dotfiles/scripts/git-completion.sh
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
