@@ -39,6 +39,8 @@ xterm*|rxvt*)
 *)
   ;;
 esac
+ 
+########## Most of my personal configurations ###########
 
 #### Source aliases if they exist
 if [ -f ~/dotfiles/aliases.bash ]; then
@@ -60,6 +62,9 @@ export EDITOR=vim
 if [ -f ~/dotfiles/.localrc ]; then
    source ~/dotfiles/.localrc
 fi
+
+
+########## Updates for other software ###########
 
 ### Recommended by homebrew
 homebrew=/usr/local/bin:/usr/local/sbin
