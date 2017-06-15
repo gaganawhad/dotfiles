@@ -40,26 +40,10 @@ xterm*|rxvt*)
   ;;
 esac
 
-
-#Git aliases
-alias ga='git add'
-alias gpush='git push'
-alias gpull='git pull'
-alias gpushd='git push origin develop'
-alias gpulld='git pull origin develop'
-alias gpushm='git push origin master'
-alias gpullm='git pull origin master'
-alias gl='git --no-pager log --format="%h%x09%ar%x09%ae%x09%s%x09" -n 10'
-alias gs='git status'
-alias gd='git diff'
-alias gdc='git diff --cached'
-alias gcm='git commit -m'
-alias gma='git commit -am'
-alias gb='git branch'
-alias gc='git checkout'
-alias grslc='git reset --soft HEAD^'
-alias gcis='git commit --allow-empty -m "[ci skip]"'
-alias grep='grep --color=auto' #sets color on by default on the grep action
+#### Source aliases if they exist
+if [ -f ~/dotfiles/aliases.bash ]; then
+   source ~/dotfiles/aliases.bash
+fi
 
 ### Git completion
 export PATH=$PATH:~/dotfiles/scripts
