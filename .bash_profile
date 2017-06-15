@@ -45,7 +45,7 @@ if [ -f ~/dotfiles/aliases.bash ]; then
    source ~/dotfiles/aliases.bash
 fi
 
-### Git completion
+### Git completion and other scripts
 export PATH=$PATH:~/dotfiles/scripts
 source ~/dotfiles/scripts/git-completion.sh
 
