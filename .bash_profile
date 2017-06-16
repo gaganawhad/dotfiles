@@ -63,6 +63,11 @@ if [ -f ~/dotfiles/.localrc ]; then
    source ~/dotfiles/.localrc
 fi
 
+##### Platform specific commands
+## Any platform specific commands can be added in as so:
+# if [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
+# # commands
+# fi
 
 ########## Updates for other software ###########
 

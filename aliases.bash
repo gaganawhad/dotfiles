@@ -21,5 +21,6 @@ alias gcis='git commit --allow-empty -m "[ci skip]"'
 alias removeunwanted='find . -name "*.swp" -print0 | xargs -0 rm -rf; find . -name "*.swn" -print0 | xargs -0 rm -rf; find . -name "*.swo" -print0 | xargs -0 rm -rf; find . -name "*.swm" -print0 | xargs -0 rm -rf; find . -name "*.swk" -print0 | xargs -0 rm -rf; find . -name "*.swl" -print0 | xargs -0 rm -rf'
 
 
+
 # Aliases for grep
 alias grep='grep --color=auto' #sets color on by default on the grep action
