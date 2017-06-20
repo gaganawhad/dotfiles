@@ -17,3 +17,8 @@ colorscheme herald
 
 " Display linenumbers
 set number
+
+" Ben Orienstein recommended using relative numbering to help jump
+" to lines
+" Setting relative numbering in vim by default
+" set relativenumber
