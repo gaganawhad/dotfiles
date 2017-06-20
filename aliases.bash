@@ -23,4 +23,6 @@ alias removeunwanted='find . -name "*.swp" -print0 | xargs -0 rm -rf; find . -na
 
 
 # Aliases for grep
-alias grep='grep --color=auto' #sets color on by default on the grep action
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
