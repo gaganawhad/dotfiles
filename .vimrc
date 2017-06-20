@@ -15,3 +15,5 @@ syntax on
 " Set colorscheme
 colorscheme herald
 
+" Display linenumbers
+set number
