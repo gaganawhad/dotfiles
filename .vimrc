@@ -26,3 +26,10 @@ set nowrap
 " to lines
 " Setting relative numbering in vim by default
 " set relativenumber
+
+" * Search & Replace
+
+" make searches case-insensitive, unless they contain upper-case letters:
+set ignorecase
+set smartcase
+
