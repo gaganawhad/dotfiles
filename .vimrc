@@ -18,6 +18,10 @@ colorscheme herald
 " Display linenumbers
 set number
 
+" Do not wrap the text 
+set nowrap
+
+
 " Ben Orienstein recommended using relative numbering to help jump
 " to lines
 " Setting relative numbering in vim by default
