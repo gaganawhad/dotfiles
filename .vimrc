@@ -33,3 +33,7 @@ set nowrap
 set ignorecase
 set smartcase
 
+" show the 'best match so far' as search strings are typed:
+set incsearch
+set incsearch
+
