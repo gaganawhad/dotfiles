@@ -1,0 +1,7 @@
+[user]
+	email = gagan.a.awhad@gmail.com
+	name = Gagan Awhad
+[core]
+	editor = vim
+[color]
+	branch = auto
