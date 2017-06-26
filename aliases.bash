@@ -27,3 +27,6 @@ alias r='rails'
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
+
+# Print PATH entries, one entry per line
+alias path='echo -e ${PATH//:/\\n}'
