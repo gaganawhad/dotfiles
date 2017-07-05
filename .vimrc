@@ -1,5 +1,5 @@
 " Allow copy/paste to work correctly
-set clipboard=unnamed
+set clipboard=unnamedplus
 
 "Set tabsize to 2 spaces
 set tabstop=2
@@ -36,4 +36,3 @@ set smartcase
 " show the 'best match so far' as search strings are typed:
 set incsearch
 set incsearch
-
