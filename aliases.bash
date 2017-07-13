@@ -30,3 +30,8 @@ alias fgrep='fgrep --color=auto'
 
 # Print PATH entries, one entry per line
 alias path='echo -e ${PATH//:/\\n}'
+
+# Rubocop 
+alias rbc='rubocop'
+alias rbc='rubocop -a'
+alias rbcam'rubocop -a $(git ls-files --modified)'
