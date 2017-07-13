@@ -18,7 +18,7 @@ alias grslc='git reset --soft HEAD^'
 alias gcis='git commit --allow-empty -m "[ci skip]"'
 
 # Aliases for vim
-alias removeunwanted='find . -name "*.swp" -print0 | xargs -0 rm -rf; find . -name "*.swn" -print0 | xargs -0 rm -rf; find . -name "*.swo" -print0 | xargs -0 rm -rf; find . -name "*.swm" -print0 | xargs -0 rm -rf; find . -name "*.swk" -print0 | xargs -0 rm -rf; find . -name "*.swl" -print0 | xargs -0 rm -rf'
+alias rmswp='find . -name "*.swp" -print0 | xargs -0 rm -rf; find . -name "*.swn" -print0 | xargs -0 rm -rf; find . -name "*.swo" -print0 | xargs -0 rm -rf; find . -name "*.swm" -print0 | xargs -0 rm -rf; find . -name "*.swk" -print0 | xargs -0 rm -rf; find . -name "*.swl" -print0 | xargs -0 rm -rf'
 
 # Aliases for rails
 alias r='rails'
