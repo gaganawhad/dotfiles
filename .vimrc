@@ -35,3 +35,8 @@ set smartcase
 
 " show the 'best match so far' as search strings are typed:
 set incsearch
+
+"Autoread when file is updated outside of vim or on git branch changes
+set autoread
+au FocusGained,BufEnter * :silent! !
+au FocusLost,WinLeave * :silent! w
