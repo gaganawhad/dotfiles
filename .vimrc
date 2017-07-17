@@ -1,6 +1,11 @@
 " Allow copy/paste to work correctly
 set clipboard=unnamedplus
 
+" filetype is on by default. Turn on indent and plugin along with it.
+" This is recommened for NERD Commenter, but is probably a good idea anyway.
+" :help :filetype-overview for more info.
+filetype plugin indent on
+
 "Set tabsize to 2 spaces
 set tabstop=2
 set shiftwidth=2

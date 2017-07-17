@@ -4,3 +4,6 @@
 [submodule ".vim/pack/my_plugins/start/ctrlp.vim"]
 	path = .vim/pack/my_plugins/start/ctrlp.vim
 	url = git@github.com:ctrlpvim/ctrlp.vim.git
+[submodule ".vim/pack/my_plugins/start/nerdcommenter"]
+	path = .vim/pack/my_plugins/start/nerdcommenter
+	url = git@github.com:scrooloose/nerdcommenter.git
