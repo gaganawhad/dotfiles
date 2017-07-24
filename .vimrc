@@ -1,3 +1,13 @@
+" *** Plugin settings ***
+"
+" YouCompleteMe
+" The following is a hack to make the carriage return key function as the
+" 'accept' action when using YouCompleteMe plugin for autocompletion
+" See https://github.com/Valloric/YouCompleteMe/issues/232#issuecomment-299677328
+imap <expr> <CR> pumvisible() ? "\<c-y>" : "\<CR>"
+
+" *** Plugin settings end *** 
+
 " Allow copy/paste to work correctly
 set clipboard=unnamedplus
 
