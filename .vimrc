@@ -6,6 +6,12 @@
 " See https://github.com/Valloric/YouCompleteMe/issues/232#issuecomment-299677328
 imap <expr> <CR> pumvisible() ? "\<c-y>" : "\<CR>"
 
+" Ctrl-p
+" Set max depth for cntrl-p plugin
+" picked up from: https://github.com/kien/ctrlp.vim/issues/234#issuecomment-22992830
+let g:ctrlp_max_files=0 " Set to 0 for no limit
+" let g:ctrlp_max_depth=40 " Uncomment if depth isn't sufficient
+
 " *** Plugin settings end *** 
 
 " Allow copy/paste to work correctly
