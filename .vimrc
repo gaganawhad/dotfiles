@@ -11,6 +11,9 @@ imap <expr> <CR> pumvisible() ? "\<c-y>" : "\<CR>"
 " picked up from: https://github.com/kien/ctrlp.vim/issues/234#issuecomment-22992830
 let g:ctrlp_max_files=0 " Set to 0 for no limit
 " let g:ctrlp_max_depth=40 " Uncomment if depth isn't sufficient
+" Search through hidden files / dotfiles
+" https://github.com/kien/ctrlp.vim/blob/master/doc/ctrlp.txt
+let g:ctrlp_show_hidden=1 " Set to 1 to show hidden files
 
 " *** Plugin settings end *** 
 
