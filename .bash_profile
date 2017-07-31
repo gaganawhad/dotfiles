@@ -59,6 +59,8 @@ fi
 export EDITOR=vim
 
 ### If ~/dotifles/.localrc file exists then the settings in that file will override all the settings in this file
+# Use it for things like setting a default folder for terminal apps to open to which could be very specific to 
+# the machine.
 if [ -f ~/dotfiles/.localrc ]; then
    source ~/dotfiles/.localrc
 fi
