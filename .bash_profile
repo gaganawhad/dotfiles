@@ -58,13 +58,6 @@ fi
 # SET EDITOR to vim
 export EDITOR=vim
 
-### If ~/dotifles/.localrc file exists then the settings in that file will override all the settings in this file
-# Use it for things like setting a default folder for terminal apps to open to which could be very specific to 
-# the machine.
-if [ -f ~/dotfiles/.localrc ]; then
-   source ~/dotfiles/.localrc
-fi
-
 ##### Platform specific commands
 ## Any platform specific commands can be added in as so:
 # if [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
@@ -81,3 +74,10 @@ export PATH=$homebrew:$PATH
 export PATH="$PATH:$HOME/.rvm/bin"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+### If ~/dotifles/.localrc file exists then the settings in that file will override all the settings in this file
+# Use it for things like setting a default folder for terminal apps to open to which could be very specific to 
+# the machine.
+if [ -f ~/dotfiles/.localrc ]; then
+   source ~/dotfiles/.localrc
+fi
