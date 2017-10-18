@@ -28,6 +28,9 @@ alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 
+# Alias for rubocop
+alias rubocop='rubocop --display-cop-names'
+
 # Print PATH entries, one entry per line
 alias path='echo -e ${PATH//:/\\n}'
 
