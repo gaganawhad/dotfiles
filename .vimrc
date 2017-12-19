@@ -38,6 +38,8 @@ set wildignore+=**/app/assets/images*
 let g:ctrlp_clear_cache_on_exit = 1
 " Set the directory to store the cache files: >
 let g:ctrlp_cache_dir = $HOME.'/.cache/ctrlp'
+" Dont follow symlinks
+ let g:ctrlp_follow_symlinks = 0
 
 " *** Plugin settings end *** 
 
