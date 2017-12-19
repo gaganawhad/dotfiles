@@ -30,6 +30,15 @@ set wildignore+=**/public/images
 set wildignore+=**/public/client*
 set wildignore+=**/app/assets/images*
 
+" Enable Cntrl+P caching
+" Documentation at
+" https://github.com/kien/ctrlp.vim/blob/564176f01d7f3f7f8ab452ff4e1f5314de7b0981/doc/ctrlp.txt#L206-L224
+" Enable per-session cachin
+" Note: you can quickly purge the cache by pressing <F5> while inside CtrlP.
+let g:ctrlp_clear_cache_on_exit = 1
+" Set the directory to store the cache files: >
+let g:ctrlp_cache_dir = $HOME.'/.cache/ctrlp'
+
 " *** Plugin settings end *** 
 
 " Allow copy/paste to work correctly
