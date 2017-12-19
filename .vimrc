@@ -14,6 +14,21 @@ let g:ctrlp_max_files=8000 " Set to 0 for no limit
 " Search through hidden files / dotfiles
 " https://github.com/kien/ctrlp.vim/blob/master/doc/ctrlp.txt
 let g:ctrlp_show_hidden=1 " Set to 1 to show hidden files
+" While Cntrl+P has it's own way of ignoring files, (search for
+" `ctrlp_custom_ignore`), I am using a wildignore to have it affect more than
+" just Cntrl=P. I might realize later that this was a bad idea and then fall
+" back to `ctrlp_custom_ignore`
+" Developed from
+" https://github.com/wcamarao/dotfiles/blob/master/model/vimrc#L39-L42
+" Documentation was found here: http://vimdoc.sourceforge.net/htmldoc/options.html#'wildignore'
+set wildignore+=**/node_modules
+set wildignore+=**/vendor
+set wildignore+=**/tmp
+set wildignore+=**/log
+set wildignore+=**/.git
+set wildignore+=**/public/images
+set wildignore+=**/public/client*
+set wildignore+=**/app/assets/images*
 
 " *** Plugin settings end *** 
 
