@@ -14,3 +14,14 @@ After that make symlinks to all the dotfiles example:
 ``` bash
 ln -s ~/dotfiles/.bash_profile ~/.bash_profile
 ```
+
+Vim plugins
+------------
+
+To install a vim plugin use:
+
+`git submodule add https://github.com/vim-airline/vim-airline.git .vim/pack/my_plugins/start/vim-airline`
+
+https://shapeshed.com/vim-packages/#adding-a-package
+
+
