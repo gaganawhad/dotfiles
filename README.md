@@ -7,7 +7,11 @@ Installation
 
 ``` bash
 git clone git://github.com/gaganawhad/dotfiles ~/dotfiles
+cd dotfiles
+git submodule update --init 
 ```
+
+NOTE: I coudn't get `--depth 1` to work with `git submodule update`
 
 After that make symlinks to all the dotfiles example: 
 
@@ -17,6 +21,8 @@ ln -s ~/dotfiles/.bash_profile ~/.bash_profile
 
 Vim plugins
 ------------
+
+To install all git submodules use:
 
 To install a vim plugin use:
 
