@@ -43,16 +43,19 @@ let g:ctrlp_cache_dir = $HOME.'/.cache/ctrlp'
 
 " *** Plugin settings end *** 
 
-" Allow copy/paste to work correctly
-" See https://stackoverflow.com/a/2842811/2980914
-if has("unix")
-  let s:uname = system("echo -n \"$(uname)\"")
-  if !v:shell_error && s:uname == "Linux"
-    set clipboard=unnamed
-  elseif !v:shell_error && s:uname == "Darwin"
-    set clipboard=unnamedplus
-  endif
-endif
+"" Allow copy/paste to work correctly
+"" See https://stackoverflow.com/a/2842811/2980914
+"if has("unix")
+  "let s:uname = system("echo -n \"$(uname)\"")
+  "if !v:shell_error && s:uname == "Linux"
+    "set clipboard=unnamed
+  "elseif !v:shell_error && s:uname == "Darwin"
+    "set clipboard=unnamedplus
+  "endif
+"endif
+
+" Let's try this from here: https://stackoverflow.com/a/30691754/2980914
+set clipboard^=unnamed,unnamedplus
 
 " filetype is on by default. Turn on indent and plugin along with it.
 " This is recommened for NERD Commenter, but is probably a good idea anyway.
