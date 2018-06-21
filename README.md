@@ -8,10 +8,12 @@ Installation
 ``` bash
 git clone git://github.com/gaganawhad/dotfiles ~/dotfiles
 cd dotfiles
-git submodule update --init 
+git submodule update --init --recursive
 ```
 
-NOTE: I coudn't get `--depth 1` to work with `git submodule update`
+NOTES: 
+  - I couldn't get `--depth 1` to work with `git submodule update`
+  - YouCompleteMe needs the `--recursive` option when initializing submodules.
 
 After that make symlinks to all the dotfiles example: 
 
