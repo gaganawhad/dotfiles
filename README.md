@@ -31,3 +31,13 @@ To install a vim plugin use:
 https://shapeshed.com/vim-packages/#adding-a-package
 
 
+#### Installing YouCompleteMe on Linux
+  Instructions taken from here: https://github.com/Valloric/YouCompleteMe#ubuntu-linux-x64
+  - `sudo apt install build-essential cmake`
+  - `sudo apt install python-dev python3-dev`
+  - `./install.py --clang-completer`
+  
+  
+  
+
+
