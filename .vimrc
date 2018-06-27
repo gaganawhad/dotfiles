@@ -110,3 +110,8 @@ au FocusLost,WinLeave * :silent! w
 " https://stackoverflow.com/questions/2447109/showing-a-different-background-colour-in-vim-past-80-characters
 highlight ColorColumn ctermbg=235 guibg=#2c2d27
 let &colorcolumn="119,".join(range(120,999),",")
+
+" Local config
+if filereadable($HOME . "/.vimrc.local")
+  source ~/.vimrc.local
+endif
