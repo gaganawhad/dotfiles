@@ -104,6 +104,31 @@ set autoread
 au FocusGained,BufEnter * :silent! !
 au FocusLost,WinLeave * :silent! w
 
+" Use leader instead of Cntrl for window splits
+" See more information here: https://codeincomplete.com/posts/split-windows-and-tabs-in-vim/
+nnoremap <leader>wn <C-w>n " new horizontal split (editing a new empty buffer)
+nnoremap <leader>ws <C-w>s " split window horizontally (editing current buffer)
+nnoremap <leader>wv <C-w>v " vsplit window vertically (editing current buffer)
+nnoremap <leader>wc <C-w>c " close window
+nnoremap <leader>wo <C-w>o " close all windows, leaving :only the current window open
+nnoremap <leader>ww <C-w>w " go to next window
+nnoremap <leader>wp <C-w>p " go to previous window
+nnoremap <leader><Up> <C-w><Up> "  go to window above
+nnoremap <leader><Down> <C-w><Down> " go to window below
+nnoremap <leader><Left> <C-w><Left> " go to window on left
+nnoremap <leader><Right> <C-w><Right> " go to window on right
+
+nnoremap <leader><Tab> <C-W>w
+nnoremap <leader><Bar> <C-W>v<C-W><Right>
+nnoremap <leader>-     <C-W>s<C-W><Down>
+
+" Quicker window movement
+" From here: https://github.com/thoughtbot/dotfiles/blob/21055dff633feea87bc9526efb5b2fcc04bc025e/vimrc#L142-L146
+nnoremap <leader>j <C-w>j
+nnoremap <leader>k <C-w>k
+nnoremap <leader>l <C-w>l
+nnoremap <leader>h <C-w>h
+
 
 " Highlight columns for line length
 " Developed from
