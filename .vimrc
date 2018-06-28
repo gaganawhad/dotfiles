@@ -62,6 +62,11 @@ set clipboard^=unnamed,unnamedplus
 " :help :filetype-overview for more info.
 filetype plugin indent on
 
+" My NERD Commenter settings
+" See https://github.com/scrooloose/nerdcommenter#settings
+let g:NERDSpaceDelims = 1
+let g:NERDDefaultAlign = 'left'
+
 "Set tabsize to 2 spaces
 set tabstop=2
 set shiftwidth=2
