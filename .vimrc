@@ -134,6 +134,10 @@ nnoremap <leader>k <C-w>k
 nnoremap <leader>l <C-w>l
 nnoremap <leader>h <C-w>h
 
+" Add keyboard shortcut for rubocop autocorrect
+" Idea from https://github.com/ngmy/vim-rubocop#keyboard-shortcuts
+nmap <Leader>ra :RuboCop<space>-a<CR>
+
 
 " Highlight columns for line length
 " Developed from
