@@ -3,6 +3,7 @@ let mapleader = " "
 
 " https://github.com/thoughtbot/dotfiles/blob/21055dff633feea87bc9526efb5b2fcc04bc025e/vimrc#L4
 set backspace=2   " Backspace deletes like most programs in insert mode
+set noswapfile    " Disable storing swap files https://github.com/thoughtbot/dotfiles/blob/21055dff633feea87bc9526efb5b2fcc04bc025e/vimrc#L7
 
 " *** Plugin settings ***
 "
