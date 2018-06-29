@@ -4,6 +4,56 @@ let mapleader = " "
 " https://github.com/thoughtbot/dotfiles/blob/21055dff633feea87bc9526efb5b2fcc04bc025e/vimrc#L4
 set backspace=2   " Backspace deletes like most programs in insert mode
 set noswapfile    " Disable storing swap files https://github.com/thoughtbot/dotfiles/blob/21055dff633feea87bc9526efb5b2fcc04bc025e/vimrc#L7
+set autoindent " Set autoindent
+set number " Display linenumbers
+set nowrap " Do not wrap the text 
+set clipboard^=unnamed,unnamedplus " Allow copy/paste to work correctly https://stackoverflow.com/a/30691754/2980914
+"Set tabsize to 2 spaces
+set tabstop=2
+set shiftwidth=2
+set expandtab
+"
+" **** Search & Replace ****
+" make searches case-insensitive, unless they contain upper-case letters:
+set ignorecase
+set smartcase
+set incsearch " show the 'best match so far' as search strings are typed:
+set hlsearch " highlight all search matches
+"  ********
+
+syntax on " Turn on syntax highlighting
+colorscheme herald " Set colorscheme
+
+" Use leader instead of Cntrl for window splits
+" See more information here: https://codeincomplete.com/posts/split-windows-and-tabs-in-vim/
+nnoremap <leader>wn <C-w>n " new horizontal split (editing a new empty buffer)
+nnoremap <leader>ws <C-w>s " split window horizontally (editing current buffer)
+nnoremap <leader>wv <C-w>v " vsplit window vertically (editing current buffer)
+nnoremap <leader>wc <C-w>c " close window
+nnoremap <leader>wo <C-w>o " close all windows, leaving :only the current window open
+nnoremap <leader>ww <C-w>w " go to next window
+nnoremap <leader>wp <C-w>p " go to previous window
+nnoremap <leader><Up> <C-w><Up> "  go to window above
+nnoremap <leader><Down> <C-w><Down> " go to window below
+nnoremap <leader><Left> <C-w><Left> " go to window on left
+nnoremap <leader><Right> <C-w><Right> " go to window on right
+
+nnoremap <leader><Tab> <C-W>w
+nnoremap <leader><Bar> <C-W>v<C-W><Right>
+nnoremap <leader>-     <C-W>s<C-W><Down>
+
+" Quicker window movement
+" From here: https://github.com/thoughtbot/dotfiles/blob/21055dff633feea87bc9526efb5b2fcc04bc025e/vimrc#L142-L146
+nnoremap <leader>j <C-w>j
+nnoremap <leader>k <C-w>k
+nnoremap <leader>l <C-w>l
+nnoremap <leader>h <C-w>h
+ 
+" Highlight columns for line length
+" Developed from
+" https://stackoverflow.com/questions/2447109/showing-a-different-background-colour-in-vim-past-80-characters
+highlight ColorColumn ctermbg=235 guibg=#2c2d27
+let &colorcolumn="119,".join(range(120,999),",")
 
 " *** Plugin settings ***
 "
@@ -48,109 +98,23 @@ let g:ctrlp_cache_dir = $HOME.'/.cache/ctrlp'
 " Dont follow symlinks
  let g:ctrlp_follow_symlinks = 0
 
-" *** Plugin settings end *** 
-
-"" Allow copy/paste to work correctly
-"" See https://stackoverflow.com/a/2842811/2980914
-"if has("unix")
-  "let s:uname = system("echo -n \"$(uname)\"")
-  "if !v:shell_error && s:uname == "Linux"
-    "set clipboard=unnamed
-  "elseif !v:shell_error && s:uname == "Darwin"
-    "set clipboard=unnamedplus
-  "endif
-"endif
-
-" Let's try this from here: https://stackoverflow.com/a/30691754/2980914
-set clipboard^=unnamed,unnamedplus
-
+" My NERD Commenter settings
+"
 " filetype is on by default. Turn on indent and plugin along with it.
 " This is recommened for NERD Commenter, but is probably a good idea anyway.
 " :help :filetype-overview for more info.
 filetype plugin indent on
 
-" My NERD Commenter settings
 " See https://github.com/scrooloose/nerdcommenter#settings
 let g:NERDSpaceDelims = 1
 let g:NERDDefaultAlign = 'left'
-
-"Set tabsize to 2 spaces
-set tabstop=2
-set shiftwidth=2
-set expandtab
-
-" Set autoindent
-set autoindent
-
-" Turn on syntax highlighting
-syntax on
-
-" Set colorscheme
-colorscheme herald
-
-" Display linenumbers
-set number
-
-" Do not wrap the text 
-set nowrap
-
-
-" Ben Orienstein recommended using relative numbering to help jump
-" to lines
-" Setting relative numbering in vim by default
-" set relativenumber
-
-" * Search & Replace
-
-" make searches case-insensitive, unless they contain upper-case letters:
-set ignorecase
-set smartcase
-
-" show the 'best match so far' as search strings are typed:
-set incsearch
-" highlight all search matches
-set hlsearch
-
-"Autoread when file is updated outside of vim or on git branch changes
-set autoread
-au FocusGained,BufEnter * :silent! !
-au FocusLost,WinLeave * :silent! w
-
-" Use leader instead of Cntrl for window splits
-" See more information here: https://codeincomplete.com/posts/split-windows-and-tabs-in-vim/
-nnoremap <leader>wn <C-w>n " new horizontal split (editing a new empty buffer)
-nnoremap <leader>ws <C-w>s " split window horizontally (editing current buffer)
-nnoremap <leader>wv <C-w>v " vsplit window vertically (editing current buffer)
-nnoremap <leader>wc <C-w>c " close window
-nnoremap <leader>wo <C-w>o " close all windows, leaving :only the current window open
-nnoremap <leader>ww <C-w>w " go to next window
-nnoremap <leader>wp <C-w>p " go to previous window
-nnoremap <leader><Up> <C-w><Up> "  go to window above
-nnoremap <leader><Down> <C-w><Down> " go to window below
-nnoremap <leader><Left> <C-w><Left> " go to window on left
-nnoremap <leader><Right> <C-w><Right> " go to window on right
-
-nnoremap <leader><Tab> <C-W>w
-nnoremap <leader><Bar> <C-W>v<C-W><Right>
-nnoremap <leader>-     <C-W>s<C-W><Down>
-
-" Quicker window movement
-" From here: https://github.com/thoughtbot/dotfiles/blob/21055dff633feea87bc9526efb5b2fcc04bc025e/vimrc#L142-L146
-nnoremap <leader>j <C-w>j
-nnoremap <leader>k <C-w>k
-nnoremap <leader>l <C-w>l
-nnoremap <leader>h <C-w>h
 
 " Add keyboard shortcut for rubocop autocorrect
 " Idea from https://github.com/ngmy/vim-rubocop#keyboard-shortcuts
 nmap <Leader>ra :RuboCop<space>-a<CR>
 
+" *** Plugin settings end *** 
 
-" Highlight columns for line length
-" Developed from
-" https://stackoverflow.com/questions/2447109/showing-a-different-background-colour-in-vim-past-80-characters
-highlight ColorColumn ctermbg=235 guibg=#2c2d27
-let &colorcolumn="119,".join(range(120,999),",")
 
 " Local config
 if filereadable($HOME . "/.vimrc.local")
