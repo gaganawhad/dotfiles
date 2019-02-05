@@ -86,6 +86,7 @@ set wildignore+=**/.git
 set wildignore+=**/public/images
 set wildignore+=**/public/client*
 set wildignore+=**/app/assets/images*
+set wildignore+=**/db/dumps*
 
 " Enable Cntrl+P caching
 " Documentation at
