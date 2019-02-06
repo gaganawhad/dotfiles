@@ -21,6 +21,13 @@ set incsearch " show the 'best match so far' as search strings are typed:
 set hlsearch " highlight all search matches
 "  ********
 
+
+
+" ********
+" Set autoread
+" This lets gvim reload the file when changes happen from elsewhere
+set autoread
+
 syntax on " Turn on syntax highlighting
 colorscheme herald " Set colorscheme
 
