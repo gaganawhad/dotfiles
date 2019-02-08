@@ -81,3 +81,5 @@ export PATH="$PATH:$HOME/.rvm/bin"
 if [ -f ~/dotfiles/.localrc ]; then
    source ~/dotfiles/.localrc
 fi
+
+export PATH="/usr/local/opt/node@8/bin:$PATH"
