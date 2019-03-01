@@ -19,6 +19,7 @@ set ignorecase
 set smartcase
 set incsearch " show the 'best match so far' as search strings are typed:
 set hlsearch " highlight all search matches
+nnoremap <esc> :noh<return><esc> " stop highlighting search results after pressing escape key
 "  ********
 
 
