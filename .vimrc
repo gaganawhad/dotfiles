@@ -113,7 +113,7 @@ let g:ctrlp_cache_dir = $HOME.'/.cache/ctrlp'
 " The Silver Searcher
 if executable('ag')
   " Use ag over grep
-  set grepprg=ag\ --nogroup\ --nocolor\ --column
+  set grepprg=ag\ --vimgrep
 
   " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
   let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
