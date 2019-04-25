@@ -6,3 +6,19 @@
 	excludesfile = ~/dotfiles/git/.gitignore.global
 [color]
 	branch = auto
+[alias]
+  a = add
+  pushd = push origin develop
+  pulld = pull origin develop
+  pushm = push origin master
+  pullm = pull origin master
+  l = !git --no-pager log --format="%h%x09%ar%x09%ae%x09%s%x09" -n 10
+  s = status
+  d = diff
+  dc = diff --cached
+  cm = commit -m
+  ma = commit -am
+  b = branch
+  c = checkout
+  rslc = reset --soft HEAD^
+  cis = !git commit --allow-empty -m \"[ci skip]\"
