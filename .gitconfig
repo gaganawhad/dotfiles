@@ -8,10 +8,8 @@
 	branch = auto
 [alias]
   a = add
-  pushd = push origin develop
-  pulld = pull origin develop
-  pushm = push origin master
-  pullm = pull origin master
+  push = !git push origin $(git rev-parse --abbrev-ref HEAD)
+  pull = !git pull origin $(git rev-parse --abbrev-ref HEAD)
   l = !git --no-pager log --format="%h%x09%ar%x09%ae%x09%s%x09" -n 10
   s = status
   d = diff
@@ -19,6 +17,14 @@
   cm = commit -m
   ma = commit -am
   b = branch
+  bn = checkout -b
+  bd = branch -d
+  bD = branch -D
+  dmerged = "git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
   c = checkout
+  cp = cherry-pick
   rslc = reset --soft HEAD^
+  rh = reset --hard
   cis = !git commit --allow-empty -m \"[ci skip]\"
+  f = fetch
+  amend = !git add -A && git commit --amend --no-edit
