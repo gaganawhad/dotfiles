@@ -20,7 +20,7 @@
   bn = checkout -b
   bd = branch -d
   bD = branch -D
-  dmerged = "git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
+  dmerged = !git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d
   c = checkout
   cp = cherry-pick
   rslc = reset --soft HEAD^
