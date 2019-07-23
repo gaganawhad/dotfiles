@@ -47,3 +47,7 @@ alias rbcam='rubocop -a $(git ls-files --modified)'
 
 # Command to delete temp vim ghost files
 alias removeunwanted='find . -name "*.swp" -print0 | xargs -0 rm -rf; find . -name "*.swn" -print0 | xargs -0 rm -rf; find . -name "*.swo" -print0 | xargs -0 rm -rf'
+
+# Alias for ag
+alias ag='ag --path-to-ignore ~/.ignore --ignore={vendor/cache,spec/cassettes/,spec/fixtures/puffing_billy}'
+
