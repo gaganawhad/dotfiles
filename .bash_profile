@@ -64,6 +64,10 @@ export EDITOR=vim
 # # commands
 # fi
 
+## Add node 8 bin folder to PATH
+# This was already in this file, but I am not sure it is a good idea.
+export PATH="/usr/local/opt/node@8/bin:$PATH"
+
 ########## Updates for other software ###########
 
 ### Recommended by homebrew
@@ -82,4 +86,3 @@ if [ -f ~/dotfiles/.localrc ]; then
    source ~/dotfiles/.localrc
 fi
 
-export PATH="/usr/local/opt/node@8/bin:$PATH"
