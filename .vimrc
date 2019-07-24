@@ -56,6 +56,13 @@ nnoremap <leader>j <C-w>j
 nnoremap <leader>k <C-w>k
 nnoremap <leader>l <C-w>l
 nnoremap <leader>h <C-w>h
+
+" Quiker page movement
+" Use leader instead of Cntrl for page movement
+nnoremap <leader>u <C-u>
+nnoremap <leader>d <C-d>
+nnoremap <leader>f <C-f>
+nnoremap <leader>b <C-b>
  
 " Highlight columns for line length
 " Developed from
