@@ -1,8 +1,8 @@
 #Git aliases
 alias g='git'
 alias ga='g add'
-alias gpush='g push'
-alias gpull='g pull'
+alias gpush='g psh'
+alias gpull='g pll'
 alias gl='g l'
 alias gs='g s'
 alias gd='g d'

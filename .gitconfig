@@ -8,8 +8,8 @@
 	branch = auto
 [alias]
   a = add
-  push = !git push origin $(git rev-parse --abbrev-ref HEAD)
-  pull = !git pull origin $(git rev-parse --abbrev-ref HEAD)
+  psh = !git push origin $(git rev-parse --abbrev-ref HEAD)
+  pll = !git pull origin $(git rev-parse --abbrev-ref HEAD)
   l = !git --no-pager log --format="%h%x09%ar%x09%ae%x09%s%x09" -n 10
   s = status
   d = diff
