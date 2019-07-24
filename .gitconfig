@@ -27,4 +27,5 @@
   rh = reset --hard
   cis = !git commit --allow-empty -m \"[ci skip]\"
   f = fetch
+  ri = !git rebase -i
   amend = !git commit --amend --no-edit

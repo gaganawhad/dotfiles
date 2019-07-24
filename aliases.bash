@@ -20,6 +20,7 @@ alias grslc='g rslc'
 alias grh='g rh'
 alias gcis='g cis'
 alias gf='g f'
+alias gri='g ri'
 alias gamend='g amend'
 
 
