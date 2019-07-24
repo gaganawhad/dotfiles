@@ -27,4 +27,4 @@
   rh = reset --hard
   cis = !git commit --allow-empty -m \"[ci skip]\"
   f = fetch
-  amend = !git add -A && git commit --amend --no-edit
+  amend = !git commit --amend --no-edit
