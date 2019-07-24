@@ -49,6 +49,8 @@ fi
 
 ### Add scripts to path
 export PATH=$PATH:~/dotfiles/scripts
+# Use vi key bindings in terminal
+set -o vi
 
 ### Add git-completion script
 if [ -f ~/dotfiles/scripts/git-completion.bash ]; then
