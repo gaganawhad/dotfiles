@@ -24,6 +24,7 @@ set autoread
 
 syntax on " Turn on syntax highlighting
 colorscheme herald " Set colorscheme
+highlight Pmenu ctermfg=15 ctermbg=0 guifg=#ffffff guibg=#000000 " highlighting for YouCompleteMe autocompletion menu
 
 "  ****************
 "  Search & Replace
