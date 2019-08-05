@@ -2,6 +2,9 @@
 "  General
 "  *******
 "
+" 
+set nocompatible " Use vim defaults rather than vi defaults. 
+
 " Map Leader to space
 let mapleader = " "
 
