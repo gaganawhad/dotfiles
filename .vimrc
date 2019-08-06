@@ -8,9 +8,21 @@ set nocompatible " Use vim defaults rather than vi defaults.
 " Map Leader to space
 let mapleader = " "
 
+
+" Highlight the current line the cursor is on
+set cursorline
+" Highlight the current column the cursor is on
+" set cursorcolumn
+
+" Flashes matching brackets or parentheses
+set showmatch " This causes the cursor to flash the matching braket or parentheses when you insert the closing one
+" set matchtime=3 " You can make the matchtime faster. Default is 5.
+
 " https://github.com/thoughtbot/dotfiles/blob/21055dff633feea87bc9526efb5b2fcc04bc025e/vimrc#L4
 set backspace=2   " Backspace deletes like most programs in insert mode
 set noswapfile    " Disable storing swap files https://github.com/thoughtbot/dotfiles/blob/21055dff633feea87bc9526efb5b2fcc04bc025e/vimrc#L7
+" Set temporary directory (don't litter local dir with swp/tmp files)
+" set directory=/tmp/
 set autoindent " Set autoindent
 set number " Display linenumbers
 set nowrap " Do not wrap the text 
@@ -20,6 +32,13 @@ set clipboard^=unnamed,unnamedplus " Allow copy/paste to work correctly https://
 set tabstop=2
 set shiftwidth=2
 set expandtab
+" When scrolling off-screen do so 3 lines at a time, not 1
+set scrolloff=3
+
+" enable setting title
+set title
+" configure title to look like: Vim /path/to/file
+set titlestring=VIM:\ %-25.55F\ %a%r%m titlelen=70
 
 " Set autoread
 " This lets gvim reload the file when changes happen from elsewhere
@@ -35,6 +54,8 @@ highlight Pmenu ctermfg=15 ctermbg=0 guifg=#ffffff guibg=#000000 " highlighting 
 "
 " make searches case-insensitive, unless they contain upper-case letters:
 set ignorecase
+" assume the /g flag on :s substitutions to replace all matches in a line:
+set gdefault
 set smartcase
 set incsearch " show the 'best match so far' as search strings are typed:
 set hlsearch " highlight all search matches
