@@ -119,6 +119,14 @@ let &colorcolumn="119,".join(range(120,999),",")
 " See https://github.com/Valloric/YouCompleteMe/issues/232#issuecomment-299677328
 imap <expr> <CR> pumvisible() ? "\<c-y>" : "\<CR>"
 
+
+" *** UltiSnips ***
+" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+let g:UltiSnipsExpandTrigger="<leader>j"
+let g:UltiSnipsJumpForwardTrigger="<leader>j"
+let g:UltiSnipsJumpBackwardTrigger="<leader>k"
+
+
 " *** Ctrl-p ***
 "
 " Set max depth for cntrl-p plugin
@@ -177,7 +185,7 @@ if executable('ag')
   " ag is fast enough that CtrlP doesn't need to cache
   let g:ctrlp_use_caching = 0
 endif
-
+ 
 
 " *** NERD Commenter ***
 "
