@@ -21,6 +21,7 @@ alias grh='g rh'
 alias gcis='g cis'
 alias gf='g f'
 alias gri='g ri'
+alias grom='g rom'
 alias gamend='g amend'
 
 
