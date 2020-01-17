@@ -52,3 +52,7 @@ alias removeunwanted='find . -name "*.swp" -print0 | xargs -0 rm -rf; find . -na
 # Alias for ag
 alias ag='ag --path-to-ignore ~/.ignore --ignore={vendor/cache,spec/cassettes/,spec/fixtures/puffing_billy}'
 
+# Temporary
+alias dbrp='bin/rake db:restore_from_production'
+alias rbcat='bin/rubocop app/legacy/tasks -a'
+alias rake='bin/rake'
