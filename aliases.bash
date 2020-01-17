@@ -36,13 +36,12 @@ alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 
-# Alias for rubocop
-alias rubocop='rubocop --display-cop-names'
 
 # Print PATH entries, one entry per line
 alias path='echo -e ${PATH//:/\\n}'
 
-# Rubocop 
+# Alias for rubocop
+alias rubocop='rubocop --display-cop-names'
 alias rbc='rubocop'
 alias rbc='rubocop -a'
 alias rbcam='rubocop -a $(git ls-files --modified)'
