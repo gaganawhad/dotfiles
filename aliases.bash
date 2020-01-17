@@ -43,7 +43,7 @@ alias path='echo -e ${PATH//:/\\n}'
 # Alias for rubocop
 alias rubocop='rubocop --display-cop-names'
 alias rbc='rubocop'
-alias rbc='rubocop -a'
+alias rbca='rubocop -a'
 alias rbcam='rubocop -a $(git ls-files --modified)'
 
 # Command to delete temp vim ghost files
