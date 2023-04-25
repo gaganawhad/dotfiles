@@ -30,3 +30,8 @@
   ri = !git rebase -i
   rom = !git rebase origin/master
   amend = !git commit --amend --no-edit
+[filter "lfs"]
+       clean = git-lfs clean -- %f
+       smudge = git-lfs smudge -- %f
+       process = git-lfs filter-process
+       required = true
