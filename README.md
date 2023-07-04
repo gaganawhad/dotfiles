@@ -16,6 +16,7 @@ ln -s ~/projects/dotfiles/.bash_profile ~/.bash_profile
 ln -s ~/projects/dotfiles/.vim ~/.vim
 ln -s ~/projects/dotfiles/.vimrc ~/.vimrc
 ln -s ~/projects/dotfiles/aliases ~/aliases
+cp ~/projects/dotfiles/.localrc.example ~/.localrc
 ln -s ~/projects/dotfiles/.localrc ~/.localrc
 ```
 
