@@ -6,14 +6,8 @@ Installation
 ------------
 
 ``` bash
-git clone git://github.com/gaganawhad/dotfiles ~/dotfiles
-cd dotfiles
-git submodule update --init --recursive
+git clone git@github.com:gaganawhad/dotfiles.git --recurse-submodules --shallow-submodules
 ```
-
-NOTES: 
-  - I couldn't get `--depth 1` to work with `git submodule update`
-  - YouCompleteMe needs the `--recursive` option when initializing submodules.
 
 After that make symlinks to all the dotfiles example: 
 
@@ -42,6 +36,16 @@ https://shapeshed.com/vim-packages/#adding-a-package
   - `./install.py --clang-completer`
   
   
-  
+Note about Git SubModules
+-------------------------
+I've encountered some problems with initializing git submodules using `git submodule update` to have them cloned only
+to depth 1. Others seem to have had the same problem until recently.
 
+NOTES:
+  - YouCompleteMe needs the `--recursive` option when initializing submodules.
 
+```
+git clone git://github.com/gaganawhad/dotfiles ~/dotfiles
+cd dotfiles
+git submodule update --init --recursive --depth 1
+```
