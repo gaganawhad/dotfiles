@@ -42,7 +42,7 @@ https://shapeshed.com/vim-packages/#adding-a-package
 Note about Git SubModules
 -------------------------
 I've encountered some problems with initializing git submodules using `git submodule update` to have them cloned only
-to depth 1. Others seem to have had the same problem until recently.
+to depth 1. Others seem to have had the same problem until recently. See [this](https://stackoverflow.com/questions/2144406/how-to-make-shallow-git-submodules).
 
 NOTES:
   - YouCompleteMe needs the `--recursive` option when initializing submodules.
