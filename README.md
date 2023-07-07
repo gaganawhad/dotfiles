@@ -31,7 +31,7 @@ To install all git submodules use:
 
 To install a vim plugin use:
 
-`git submodule add https://github.com/vim-airline/vim-airline.git .vim/pack/my_plugins/start/vim-airline`
+`git submodule add https://github.com/vim-airline/vim-airline.git home/.vim/pack/my_plugins/start/vim-airline`
 
 https://shapeshed.com/vim-packages/#adding-a-package
 
