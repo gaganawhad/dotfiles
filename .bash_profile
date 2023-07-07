@@ -53,8 +53,8 @@ export PATH=$PATH:~/dotfiles/scripts
 set -o vi
 
 ### Add git-completion script
-if [ -f ~/dotfiles/scripts/git-completion.bash ]; then
-  source ~/dotfiles/scripts/git-completion.bash
+if [ -f ~/dotfiles/.git-completion.bash ]; then
+  source ~/dotfiles/.git-completion.bash
 fi
 
 # SET EDITOR to vim
