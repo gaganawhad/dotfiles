@@ -7,25 +7,21 @@ Installation
 
 ``` bash
 git clone git@github.com:gaganawhad/dotfiles.git --recurse-submodules --shallow-submodules
-```
-
-After that make symlinks to all the dotfiles example: 
-
-``` bash
-cp ~/projects/dotfiles/.localrc.example ~/.localrc
-ln -s ~/projects/dotfiles/.localrc ~/.localrc
-ln -s ~/projects/dotfiles/.vim ~/.vim
-ln -s ~/projects/dotfiles/.vimrc ~/.vimrc
-ln -s ~/projects/dotfiles/.git-completion.bash ~/.git-completion.bash
-ln -s ~/projects/dotfiles/.gitignore.global ~/.gitignore.global
-ln -s ~/projects/dotfiles/.gitconfig ~/.gitconfig
-ln -s ~/projects/dotfiles/.zsh ~/.zsh
-ln -s ~/projects/dotfiles/.aliases ~/.aliases
-ln -s ~/projects/dotfiles/.pryrc ~/.pryrc
-ln -s ~/projects/dotfiles/.zshenv ~/.zshenv
-ln -s ~/projects/dotfiles/.zshrc ~/.zshrc
-ln -s ~/projects/dotfiles/.zprofile ~/.zprofile
-ln -s ~/projects/dotfiles/.bash_profile ~/.bash_profile
+cd dotfiles
+cp home/.localrc.example ~/.localrc
+ln -s $PWD/home/.localrc ~/.localrc
+ln -s $PWD/home/.vim ~/.vim
+ln -s $PWD/home/.vimrc ~/.vimrc
+ln -s $PWD/home/.git-completion.bash ~/.git-completion.bash
+ln -s $PWD/home/.gitignore.global ~/.gitignore.global
+ln -s $PWD/home/.gitconfig ~/.gitconfig
+ln -s $PWD/home/.zsh ~/.zsh
+ln -s $PWD/home/.aliases ~/.aliases
+ln -s $PWD/home/.pryrc ~/.pryrc
+ln -s $PWD/home/.zshenv ~/.zshenv
+ln -s $PWD/home/.zshrc ~/.zshrc
+ln -s $PWD/home/.zprofile ~/.zprofile
+ln -s $PWD/home/.bash_profile ~/.bash_profile
 ```
 
 Vim plugins
