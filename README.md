@@ -22,7 +22,7 @@ ln -s $PWD/home/.zshenv ~/.zshenv
 ln -s $PWD/home/.zshrc ~/.zshrc
 ln -s $PWD/home/.zprofile ~/.zprofile
 ln -s $PWD/home/.bash_profile ~/.bash_profile
-ln -s $PWD/home/scripts/clean_local_branches /usr/local/bin/clean_local_branches
+ln -s $PWD/home/scripts/clean_local_branches.sh /usr/local/bin/clean_local_branches
 ```
 
 Vim plugins
