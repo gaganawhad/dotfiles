@@ -23,6 +23,9 @@ ln -s ~/projects/dotfiles/.aliases ~/.aliases
 ln -s ~/projects/dotfiles/.pryrc ~/.pryrc
 cp ~/projects/dotfiles/.localrc.example ~/.localrc
 ln -s ~/projects/dotfiles/.localrc ~/.localrc
+ln -s ~/projects/dotfiles/.zshenv ~/.zshenv
+ln -s ~/projects/dotfiles/.zshrc ~/.zshrc
+ln -s ~/projects/dotfiles/.zprofile ~/.zprofile
 ```
 
 Vim plugins
