@@ -15,6 +15,7 @@ After that make symlinks to all the dotfiles example:
 ln -s ~/projects/dotfiles/.bash_profile ~/.bash_profile
 ln -s ~/projects/dotfiles/.vim ~/.vim
 ln -s ~/projects/dotfiles/.vimrc ~/.vimrc
+ln -s ~/projects/dotfiles/.git-completion.bash ~/.git-completion.bash
 ln -s ~/projects/dotfiles/aliases ~/aliases
 cp ~/projects/dotfiles/.localrc.example ~/.localrc
 ln -s ~/projects/dotfiles/.localrc ~/.localrc
