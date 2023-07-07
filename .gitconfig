@@ -3,7 +3,7 @@
 	name = Gagan Awhad
 [core]
 	editor = vim
-	excludesfile = ~/dotfiles/git/.gitignore.global
+	excludesfile = ~/.gitignore.global
 [color]
 	branch = auto
 [alias]
