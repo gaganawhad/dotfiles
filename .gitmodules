@@ -1,41 +1,41 @@
 [submodule "YouCompleteMe"]
-	path = .vim/pack/my_plugins/start/YouCompleteMe
+	path = home/.vim/pack/my_plugins/start/YouCompleteMe
 	url = git@github.com:Valloric/YouCompleteMe.git
   ignore = dirty
 	shallow = true
 [submodule "ctrlp.vim"]
-	path = .vim/pack/my_plugins/start/ctrlp.vim
+	path = home/.vim/pack/my_plugins/start/ctrlp.vim
 	url = git@github.com:ctrlpvim/ctrlp.vim.git
 	shallow = true
 [submodule "nerdcommenter"]
-	path = .vim/pack/my_plugins/start/nerdcommenter
+	path = home/.vim/pack/my_plugins/start/nerdcommenter
 	url = git@github.com:scrooloose/nerdcommenter.git
 	shallow = true
 [submodule "nerdtree"]
-	path = .vim/pack/my_plugins/start/nerdtree
+	path = home/.vim/pack/my_plugins/start/nerdtree
 	url = git@github.com:scrooloose/nerdtree.git
 	shallow = true
 [submodule "vim-rubocop"]
-	path = .vim/pack/my_plugins/start/vim-rubocop
+	path = home/.vim/pack/my_plugins/start/vim-rubocop
 	url = git@github.com:ngmy/vim-rubocop.git
 	shallow = true
 [submodule "numbers"]
-	path = .vim/pack/my_plugins/start/numbers
+	path = home/.vim/pack/my_plugins/start/numbers
 	url = https://github.com/myusuf3/numbers.vim.git
 	shallow = true
 [submodule "vim-airline"]
-	path = .vim/pack/my_plugins/start/vim-airline
+	path = home/.vim/pack/my_plugins/start/vim-airline
 	url = git@github.com:vim-airline/vim-airline.git
 	shallow = true
 [submodule "vim-multiple-cursors"]
-	path = .vim/pack/my_plugins/start/vim-multiple-cursors
+	path = home/.vim/pack/my_plugins/start/vim-multiple-cursors
 	url = git@github.com:terryma/vim-multiple-cursors.git
 	shallow = true
 [submodule "vim/pack/my_plugins/start/vim-javascript"]
-	path = .vim/pack/my_plugins/start/vim-javascript
+	path = home/.vim/pack/my_plugins/start/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
 	shallow = true
 [submodule "vim-es6"]
-	path = .vim/pack/my_plugins/start/vim-es6
+	path = home/.vim/pack/my_plugins/start/vim-es6
 	url = https://github.com/isRuslan/vim-es6.git
 	shallow = true
