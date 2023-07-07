@@ -20,6 +20,7 @@ ln -s ~/projects/dotfiles/.gitignore.global ~/.gitignore.global
 ln -s ~/projects/dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/projects/dotfiles/.zsh ~/.zsh
 ln -s ~/projects/dotfiles/aliases ~/aliases
+ln -s ~/projects/dotfiles/.pryrc ~/.pryrc
 cp ~/projects/dotfiles/.localrc.example ~/.localrc
 ln -s ~/projects/dotfiles/.localrc ~/.localrc
 ```
