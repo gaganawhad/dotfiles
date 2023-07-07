@@ -17,6 +17,7 @@ ln -s ~/projects/dotfiles/.vim ~/.vim
 ln -s ~/projects/dotfiles/.vimrc ~/.vimrc
 ln -s ~/projects/dotfiles/.git-completion.bash ~/.git-completion.bash
 ln -s ~/projects/dotfiles/.gitignore.global ~/.gitignore.global
+ln -s ~/projects/dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/projects/dotfiles/.zsh ~/.zsh
 ln -s ~/projects/dotfiles/aliases ~/aliases
 cp ~/projects/dotfiles/.localrc.example ~/.localrc
