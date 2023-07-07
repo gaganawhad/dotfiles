@@ -8,7 +8,7 @@ Installation
 ``` bash
 git clone git@github.com:gaganawhad/dotfiles.git --recurse-submodules --shallow-submodules
 cd dotfiles
-cp home/.localrc.example ~/.localrc
+cp home/.localrc.example home/.localrc
 ln -s $PWD/home/.localrc ~/.localrc
 ln -s $PWD/home/.vim ~/.vim
 ln -s $PWD/home/.vimrc ~/.vimrc
