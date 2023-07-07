@@ -12,7 +12,8 @@ git clone git@github.com:gaganawhad/dotfiles.git --recurse-submodules --shallow-
 After that make symlinks to all the dotfiles example: 
 
 ``` bash
-ln -s ~/projects/dotfiles/.bash_profile ~/.bash_profile
+cp ~/projects/dotfiles/.localrc.example ~/.localrc
+ln -s ~/projects/dotfiles/.localrc ~/.localrc
 ln -s ~/projects/dotfiles/.vim ~/.vim
 ln -s ~/projects/dotfiles/.vimrc ~/.vimrc
 ln -s ~/projects/dotfiles/.git-completion.bash ~/.git-completion.bash
@@ -21,11 +22,10 @@ ln -s ~/projects/dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/projects/dotfiles/.zsh ~/.zsh
 ln -s ~/projects/dotfiles/.aliases ~/.aliases
 ln -s ~/projects/dotfiles/.pryrc ~/.pryrc
-cp ~/projects/dotfiles/.localrc.example ~/.localrc
-ln -s ~/projects/dotfiles/.localrc ~/.localrc
 ln -s ~/projects/dotfiles/.zshenv ~/.zshenv
 ln -s ~/projects/dotfiles/.zshrc ~/.zshrc
 ln -s ~/projects/dotfiles/.zprofile ~/.zprofile
+ln -s ~/projects/dotfiles/.bash_profile ~/.bash_profile
 ```
 
 Vim plugins
