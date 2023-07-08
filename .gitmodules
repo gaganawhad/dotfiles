@@ -27,10 +27,6 @@
 	path = home/.vim/pack/my_plugins/start/vim-airline
 	url = git@github.com:vim-airline/vim-airline.git
 	shallow = true
-[submodule "vim-multiple-cursors"]
-	path = home/.vim/pack/my_plugins/start/vim-multiple-cursors
-	url = git@github.com:terryma/vim-multiple-cursors.git
-	shallow = true
 [submodule "vim/pack/my_plugins/start/vim-javascript"]
 	path = home/.vim/pack/my_plugins/start/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
