@@ -22,7 +22,7 @@
 	path = home/.vim/pack/my_plugins/start/vim-airline
 	url = git@github.com:vim-airline/vim-airline.git
 	shallow = true
-[submodule "vim/pack/my_plugins/start/vim-javascript"]
+[submodule "vim-javascript"]
 	path = home/.vim/pack/my_plugins/start/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
 	shallow = true
