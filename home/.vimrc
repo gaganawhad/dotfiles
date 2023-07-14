@@ -123,9 +123,9 @@ imap <expr> <CR> pumvisible() ? "\<c-y>" : "\<CR>"
 
 " *** UltiSnips ***
 " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
-let g:UltiSnipsExpandTrigger="<leader>j"
-let g:UltiSnipsJumpForwardTrigger="<leader>j"
-let g:UltiSnipsJumpBackwardTrigger="<leader>k"
+" let g:UltiSnipsExpandTrigger="<leader>j"
+" let g:UltiSnipsJumpForwardTrigger="<leader>j"
+" let g:UltiSnipsJumpBackwardTrigger="<leader>k"
 
 
 " *** Ctrl-p ***
