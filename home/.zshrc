@@ -33,3 +33,6 @@ export PATH="$PATH:$HOME/.rvm/bin"
 
 # Load localrc file if it exists
 [[ -f ~/.localrc ]] && source ~/.localrc
+
+# heroku autocomplete setup
+HEROKU_AC_ZSH_SETUP_PATH=/Users/gaganawhad/Library/Caches/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
