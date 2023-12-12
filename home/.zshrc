@@ -35,4 +35,7 @@ export PATH="$PATH:$HOME/.rvm/bin"
 [[ -f ~/.localrc ]] && source ~/.localrc
 
 # heroku autocomplete setup
-HEROKU_AC_ZSH_SETUP_PATH=/Users/gaganawhad/Library/Caches/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
+HEROKU_AC_ZSH_SETUP_PATH=/Users/gaganawhad/Library/Caches/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH
+
+# Add postgres 16 to path
+export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
