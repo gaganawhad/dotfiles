@@ -32,7 +32,10 @@ Set up VIM plugins
  - Use `:Copilot setup` to [set up Github Copilot](https://github.com/github/copilot.vim?tab=readme-ov-file#getting-startedhttps://github.com/github/copilot.vim?tab=readme-ov-file#getting-started)
  - [Install YouCompleteMe](https://github.com/ycm-core/YouCompleteMe?tab=readme-ov-file#macos) if you so choose.
 
-#### Installing YouCompleteMe on Linux
+And that should be it!
+
+Installing YouCompleteMe on Linux
+------------
   Instructions taken from here: https://github.com/Valloric/YouCompleteMe#ubuntu-linux-x64
   - `sudo apt install build-essential cmake`
   - `sudo apt install python-dev python3-dev`
