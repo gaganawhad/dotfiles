@@ -6,6 +6,7 @@ Installation
 ------------
 
 ``` bash
+cd ~/projects
 git clone git@github.com:gaganawhad/dotfiles.git --recurse-submodules --shallow-submodules
 cd dotfiles
 cp home/.localrc.example home/.localrc
