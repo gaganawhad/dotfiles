@@ -43,7 +43,7 @@ Installing YouCompleteMe on Linux
 
 Vim plugins
 ------------
-To install a new vim plugin use:
+To install a new vim plugin use this command as an example:
 
 `git submodule add git@github.com:vim-airline/vim-airline.git home/.vim/pack/my_plugins/start/vim-airline`
 
