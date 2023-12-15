@@ -10,6 +10,8 @@ mkdir ~/projects; cd ~/projects
 git clone git@github.com:gaganawhad/dotfiles.git --recurse-submodules --shallow-submodules
 cd dotfiles
 cp home/.localrc.example home/.localrc
+
+# Create symlinks
 ln -s $PWD/home/.localrc ~/.localrc
 ln -s $PWD/home/.vim ~/.vim
 ln -s $PWD/home/.vimrc ~/.vimrc
