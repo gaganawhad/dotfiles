@@ -34,3 +34,7 @@
 	path = home/.vim/pack/my_plugins/start/copilot
 	url = git@github.com:github/copilot.vim.git
 	shallow = true
+[submodule "home/.vim/home/.vim/pack/my_plugins/start/matchit"]
+	path = home/.vim/home/.vim/pack/my_plugins/start/matchit
+	url = git@github.com:chrisbra/matchit.git
+	shallow = true
