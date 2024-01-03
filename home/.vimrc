@@ -211,6 +211,10 @@ nmap <Leader>ra :RuboCop<space>-a<CR>
 " Other
 " *****
 "
+" *** Enable default matchit plugin ***
+" It helps with using % for matching `do` with corresponding `end` in ruby
+runtime macros/matchit.vim "See https://stackoverflow.com/a/23841239
+
 " Local config
 if filereadable($HOME . "/.vimrc.local")
   source ~/.vimrc.local
