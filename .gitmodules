@@ -34,3 +34,6 @@
 	path = home/.vim/pack/my_plugins/start/copilot
 	url = git@github.com:github/copilot.vim.git
 	shallow = true
+[submodule "vim-graphql"]
+	path = home/.vim/pack/my_plugins/start/vim-graphql
+	url = git@github.com:jparise/vim-graphql.git
