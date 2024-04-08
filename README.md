@@ -49,3 +49,6 @@ To install a new vim plugin use this command as an example:
 
 See [this](https://shapeshed.com/vim-packages/#adding-a-package).
 
+To update an existing vim plugin use this command as an example:
+
+`git submodule update home/.vim/pack/my_plugins/start/vim-airline`
