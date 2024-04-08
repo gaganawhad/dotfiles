@@ -37,3 +37,4 @@
 [submodule "vim-graphql"]
 	path = home/.vim/pack/my_plugins/start/vim-graphql
 	url = git@github.com:jparise/vim-graphql.git
+	shallow = true
