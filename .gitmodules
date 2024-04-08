@@ -2,10 +2,12 @@
 	path = home/.vim/pack/my_plugins/start/ctrlp.vim
 	url = git@github.com:ctrlpvim/ctrlp.vim.git
 	shallow = true
+	branch = master
 [submodule "nerdcommenter"]
 	path = home/.vim/pack/my_plugins/start/nerdcommenter
 	url = git@github.com:scrooloose/nerdcommenter.git
 	shallow = true
+	branch = master
 [submodule "nerdtree"]
 	path = home/.vim/pack/my_plugins/start/nerdtree
 	url = git@github.com:scrooloose/nerdtree.git
@@ -14,27 +16,34 @@
 	path = home/.vim/pack/my_plugins/start/vim-rubocop
 	url = git@github.com:ngmy/vim-rubocop.git
 	shallow = true
+	branch = master
 [submodule "numbers"]
 	path = home/.vim/pack/my_plugins/start/numbers
 	url = https://github.com/myusuf3/numbers.vim.git
 	shallow = true
+	branch = master
 [submodule "vim-airline"]
 	path = home/.vim/pack/my_plugins/start/vim-airline
 	url = git@github.com:vim-airline/vim-airline.git
 	shallow = true
+	branch = master
 [submodule "vim-javascript"]
 	path = home/.vim/pack/my_plugins/start/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
 	shallow = true
+	branch = master
 [submodule "vim-es6"]
 	path = home/.vim/pack/my_plugins/start/vim-es6
 	url = https://github.com/isRuslan/vim-es6.git
 	shallow = true
+	branch = master
 [submodule "copilot"]
 	path = home/.vim/pack/my_plugins/start/copilot
 	url = git@github.com:github/copilot.vim.git
 	shallow = true
+	branch = releases
 [submodule "vim-graphql"]
 	path = home/.vim/pack/my_plugins/start/vim-graphql
 	url = git@github.com:jparise/vim-graphql.git
 	shallow = true
+	branch = master
