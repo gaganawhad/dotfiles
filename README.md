@@ -45,7 +45,7 @@ Vim plugins
 ------------
 To install a new vim plugin use this command as an example:
 
-`git submodule add git@github.com:vim-airline/vim-airline.git home/.vim/pack/my_plugins/start/vim-airline`
+`git submodule add --name vim-airline --depth 1 --branch master git@github.com:vim-airline/vim-airline.git home/.vim/pack/my_plugins/start/vim-airline`
 
 See [this](https://shapeshed.com/vim-packages/#adding-a-package).
 
