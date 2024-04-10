@@ -107,7 +107,7 @@ nnoremap <leader>b <C-b>
 " Developed from
 " https://stackoverflow.com/questions/2447109/showing-a-different-background-colour-in-vim-past-80-characters
 highlight ColorColumn ctermbg=235 guibg=#2c2d27
-let &colorcolumn="119,".join(range(120,999),",")
+let &colorcolumn="201,".join(range(201,999),",")
 
 " *******
 " Plugins
